@@ -1,6 +1,5 @@
 # DZ 4
 
-
 math = int(input())
 step = 2
 nn = 1
