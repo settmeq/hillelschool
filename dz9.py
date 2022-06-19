@@ -5,7 +5,7 @@ c = 0
 for i in range(1, len(digs) - 1):
     if digs[i - 1] < digs[i] > digs[i + 1]:
         c += 1
-print(c, end="-кількість елементів")
+print(c, "  кількість елементів")
 
 
 
