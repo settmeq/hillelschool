@@ -1,11 +1,11 @@
 # #DZ 9
 
-a = list(map(int, input('Ведите числа:\n').split()))
+digs = list(map(int, input('Введіть числа: ').split()))
 c = 0
-for i in range(1, len(a) - 1):
-    if a[i - 1] < a[i] > a[i + 1]:
+for i in range(1, len(digs) - 1):
+    if digs[i - 1] < digs[i] > digs[i + 1]:
         c += 1
-print(c, end="-количество эелементов")
+print(c, end="-кількість елементів")
 
 
 
